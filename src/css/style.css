@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+  background: linear-gradient(320deg, #102126 0%, rgba(35, 40, 44, 0.90) 100%) no-repeat;
+  height: 100vh;
+}
+
+button, select, textarea, input {
+  font-family: 'Mulish', sans-serif;
+}
+
+.title {
+  color: #FFF;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+#header-wrapper {
+  padding: 56px 24px;
+  background-color: #222;
+  border-radius: 16px;
+}
+
+.search {
+  width: 100%;
+  height: 48px;
+  max-width: 220px;
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: #778598;
+  box-shadow: 0px 4px 21px 0px rgba(0, 0, 0, 0.15);
+  color: #111;
+  font-size: 14px;
+}
+
+.search::placeholder {
+  color: #111;
+}
