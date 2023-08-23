@@ -43,3 +43,29 @@ button, select, textarea, input {
 .search::placeholder {
   color: #111;
 }
+
+#categories {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+
+#categories a {
+  color: #818D9F;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;  
+}
+
+#categories a:hover::after {
+  content: '';
+  width: calc(100% - 2px);
+  height: 3px;
+  background: #FF9A00;
+  position: absolute;
+  left: 1px;
+  bottom: 0;
+  margin-top: 4px;
+}
